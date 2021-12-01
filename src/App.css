@@ -1,4 +1,4 @@
-.App {
+.centerText {
   text-align: center;
 }
 
@@ -7,7 +7,7 @@
   pointer-events: none;
   padding-left: 1vw;
 }
-.App-header {
+.container {
   background-color: #282c34;
   min-height: 100vh;
   display: flex;
@@ -28,6 +28,7 @@
   width: 33vmax;
   font-family: 'Inconsolata';
   font-size: 2vh;
+  cursor: pointer;
 }
 
 .bold {
@@ -38,4 +39,16 @@
   display: flex;
   align-items: center;
   justify-content: center;
+}
+
+.row {
+  display: flex;
+  flex-direction: row;
+}
+
+.separator {
+  border-bottom: 1px solid white;
+  width: 40%;
+  margin-top: 2vh;
+  margin-bottom: 2vh;
 }
